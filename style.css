@@ -1,5 +1,5 @@
 :root {
-    --light-font: #ededed;
+    --light-font: #ffffff;
 }
 
 html {
@@ -25,6 +25,8 @@ aside {
 
 main {
     width: calc(100vw * 2/3);
+    /* padding-left: 3rem; */
+    background: #f5f5f5;
 }
 
 .aside-content {
@@ -65,8 +67,41 @@ main {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 20rem 2rem 3rem;
+    background: var(--light-font);
+}
+
+.fields > div {
+    padding: .6rem 0;
+}
+
+label {
+    color: #000000c8;
+    font-weight: 500;
 }
 
 input {
     display: block;
+    padding: .25rem .5rem;
+    font-size: 20px;
+    border-radius: .25rem;
+    border: 1px solid #00000034;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--light-font);
+    background: #b7cdf6;
+    font-size: 20px;
+    font-weight: 600;
+    padding: .6em 2.6em;
+    margin: 2rem 3rem;
+    border-radius: .5em;
+    border-style: none;
+    transition: all 200ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #9db0d4;
 }
