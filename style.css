@@ -1,5 +1,6 @@
 :root {
     --light-font: #ffffff;
+    --dark-font: #404040;
 }
 
 html {
@@ -71,6 +72,7 @@ main > p {
 }
 
 .testimonial, #ldt {
+    color: var(--dark-font);
     width: 70%;
     font-size: 24px;
     font-weight: 600;
@@ -108,8 +110,20 @@ input {
     border: 1px solid #00000034;
 }
 
+/* input:focus {
+    border: 5px solid #b7cdf6;
+} */
+
+input:valid {
+    border: 1px solid #5dc3a3;
+}
+
+input:invalid {
+    border: 1px solid #cb0000;
+}
+
 button {
-    font-family: 'Quicksand', sans-serif;
+    font-family: inherit;
     color: var(--light-font);
     background: #b7cdf6;
     font-size: 20px;
