@@ -1,3 +1,11 @@
+:root {
+    --light-font: #ededed;
+}
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     padding: 0;
@@ -19,16 +27,38 @@ main {
     width: calc(100vw * 2/3);
 }
 
-.logo-text {
-    font-size: 60px;
-}
-
 .aside-content {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    margin-top: 8rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #26262636;
+}
+
+.logo-text {
+    color: var(--light-font);
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.credit {
+    margin-bottom: 1rem;
+}
+
+.credit, .credit a{
+    color: var(--light-font);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .fields {
