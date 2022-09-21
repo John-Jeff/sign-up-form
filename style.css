@@ -24,9 +24,12 @@ aside {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: calc(100vw * 2/3);
     /* padding-left: 3rem; */
-    background: #f5f5f5;
+    background: #fafafa;
 }
 
 .aside-content {
@@ -64,18 +67,21 @@ main {
 }
 
 main > p {
-    margin: 0 3rem;
+    margin: 2rem 3rem;
 }
 
-#ldt {
+.testimonial, #ldt {
+    width: 70%;
     font-size: 24px;
     font-weight: 600;
     margin-top: 0;
 }
 
 .field-box {
+    margin: 2rem 0;
     padding: 2rem 30rem 2rem 3rem;
     background: var(--light-font);
+    box-shadow: 0 5px 10px #dcdcdc;
 }
 
 .fields {
@@ -109,7 +115,7 @@ button {
     font-size: 20px;
     font-weight: 600;
     padding: .6em 2.6em;
-    margin: 2rem 3rem;
+    margin: 0 3rem;
     border-radius: .5em;
     border-style: none;
     transition: all 200ms;
