@@ -47,8 +47,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     width: 100%;
     background: #26262636;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
 }
 
 .logo-text {
