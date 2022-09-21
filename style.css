@@ -6,7 +6,8 @@ body {
 }
 
 .background {
-    background: url(/mads-schmidt-rasmussen-xfngap_DToE-unsplash.jpg);
+    background: url(/mads-schmidt-rasmussen-xfngap_DToE-unsplash.jpg) no-repeat center;
+    background-size: cover;
 }
 
 aside {
