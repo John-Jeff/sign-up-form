@@ -11,14 +11,16 @@
 
 <body>
     <aside class="background">
-        <div class="logo">
-            <img src="" alt="main logo">
-            PEAK
-        </div>
-        <div class="credit">Photo by <a
-                href="https://unsplash.com/@mvds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mads
-                Schmidt Rasmussen</a> on <a
-                href="https://unsplash.com/s/photos/mountain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        <div class="aside-content">
+            <div class="logo">
+                <img src="" alt="main logo">
+                PEAK
+            </div>
+            <div class="credit">Photo by <a
+                    href="https://unsplash.com/@mvds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mads
+                    Schmidt Rasmussen</a> on <a
+                    href="https://unsplash.com/s/photos/mountain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
         </div>
     </aside>
     <main>
@@ -39,12 +41,18 @@
                     <label for="email">Email</label>
                     <input id="email" type="email" name="email" required>
                 </div>
-                <label for="number">Phone Number</label>
-                <input id="number" type="tel" name="number" required>
-                <label for="password">Password</label>
-                <input id="password" type="password" name="pword" required>
-                <label for="password-confirm">Confirm Password</label>
-                <input id="password-confirm" type="password" name="repword" required>
+                <div class="num">
+                    <label for="number">Phone Number</label>
+                    <input id="number" type="tel" name="number" required>
+                </div>
+                <div class="pword">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="pword" required>
+                </div>
+                <div class="re-pword">
+                    <label for="password-confirm">Confirm Password</label>
+                    <input id="password-confirm" type="password" name="repword" required>
+                </div>
             </div>
 
             <button>Create Account</button>
